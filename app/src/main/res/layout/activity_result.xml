@@ -20,12 +20,12 @@
         tools:text="결과가 표시되는 곳" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/resultTextView"
         app:srcCompat="@drawable/ic_sentiment_satisfied_black_24dp"
-        android:contentDescription="TODO" />
+        tools:layout_editor_absoluteY="209dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
